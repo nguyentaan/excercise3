@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #08c;
+}
+
+a:hover {
+  color: #005580;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  line-height: 20px;
+  font-size: 21px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  background: none repeat scroll 0 0 #fdfdfd;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding: 8px 10px;
+  margin: auto;
+}
+
+.title {
+  border-bottom: 1px solid #e6e6e6;
+  color: #0056e0;
+  font-weight: bold;
+  padding: 0 10px 7px 0;
+  text-transform: uppercase;
+}
+
+.item-list ul {
+  list-style: none;
+  margin: 5px;
+}
+
+.item-list ul li {
+  background: url(https://daa.uit.edu.vn/sites/all/themes/uitpb_daa/images/list-style.png)
+    no-repeat 0 4px;
+  list-style: none;
+  padding-left: 12px;
+  margin: 0 0 5px 0;
+}
